@@ -1,0 +1,282 @@
+body
+{
+    background-color: #34495E;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+#h-style
+{
+	font-family: 'Zen Dots', cursive;
+	font-size: 300%;
+    font-weight: bold;
+	color: #6666FF;
+	text-align: center;
+}
+
+.logout_div
+{
+	position: absolute;
+	cursor: pointer;
+	right: 2%;
+	top: 100px;
+}
+
+.logout_btn
+{
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	background: #1E90FF;
+	width: 160px;
+	padding: 15px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+	border-radius: 5px;
+	cursor: pointer;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+	transition-property: box-shadow,transform;
+}
+
+.logout_btn:hover,.btn:focus,.btn:active
+{
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+
+.navbar
+{
+	background-color: #142D55;
+	height: 60px;
+	text-align: right;
+	font-family: 'Zen Dots', cursive;
+	
+}
+
+.navbar a
+{
+	color: white;
+	text-decoration: none;
+	font-size: 1.2rem;
+	padding: 10px 20px;
+	cursor: pointer;
+}
+
+.dropdown_container
+{
+	top: 18px;
+	padding: 20px 0px;
+	display: inline;
+	position: relative;
+}
+
+.dropdown_content
+{
+	position: absolute;
+	margin-top: 20px;
+	right: 0px;
+	background-color: #142D55;
+	font-family: 'Zen Dots', cursive;
+	text-align: center;
+	min-width: 100px;
+	display: none;
+}
+
+.dropdown_container:hover
+{
+	background-color: #07366B;
+}
+
+.dropdown_container:hover .dropdown_content
+{
+	top: 39.5px;
+	background-color: #07366B;
+	z-index: 1;
+	display: block;
+}
+
+.dropdown_content a
+{
+	display: block;
+}
+
+.dropdown_content a:hover
+{
+	color: #FF8E0F; 
+	background-color: white;
+}
+
+.logo img
+{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+
+
+.name
+{
+	display: inline;
+	position: relative;
+	color: white;
+	text-decoration: none;
+	font-size: 1.2rem;
+	font-family: 'Zen Dots', cursive;
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 80px;
+}
+
+
+
+
+
+.photo
+{
+	display: flex;
+	justify-content: center;
+}
+
+.photo img
+{
+	height: 150px;
+	width: 150px;
+}
+
+
+.middle
+{
+	position: relative;
+}
+
+
+.middle-left
+{
+	float: left;
+	width: 50%;
+}
+
+.middle-left h3
+{
+	color: #6666FF;
+	font-family: 'Zen Dots', cursive;
+	margin-left: 150px;
+}
+
+.middle-left a
+{
+	margin-left: 150px;
+	line-height: 25px;
+}
+
+.middle-left p
+{
+	margin-left: 150px;
+	line-height: 25px;
+}
+
+.map
+{
+	float: left;
+	width: 50%;
+}
+
+.pdf_div
+{
+    margin: auto;
+	width: 30%;
+	justify-content: center;
+	display: flex;
+	margin-bottom: 50px;
+}
+
+.pdf
+{
+    width: 300px;
+    padding: 40px;
+    background: #271F1D;
+    text-align: center;
+}
+
+.pdf h1
+{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.pdf_id
+{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498DB;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.pdf_id:focus
+{
+    width: 280px;
+    border-color: #2ECC71;
+}
+
+.upload_box
+{
+    font-size: 16px;
+    background: white;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px black;
+    width: 300px;
+    outline: none;
+}
+
+::-webkit-file-upload-button
+{
+    color: white;
+    background: #206A5D;
+    padding: 20px;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 1px 0 1px 1px #6B4559;
+    outline: none;
+}
+
+::-webkit-file-upload-button:hover
+{
+    background: #438A5E;
+}
+
+.pdf_submit
+{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ECC71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.pdf_submit:hover
+{
+    background: #2ECC71;
+}
